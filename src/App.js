@@ -21,12 +21,22 @@ function InterpolationBasics() {
   let para = `DAC, KOCHI, TVDM ipsum dolor sit amet consectetur adipisicing elit. Pariatur, optio
               repellendus delectus velit, est eaque nihil non, et alias dicta animi
               asperiores ullam placeat odit autem sunt voluptates impedit repudiandae?`;
+  let price = 99.99;
+  let user = { id: 1, name: "rohit", email: "rohit@gmail.com" }; // object literal
+
   //2. member function, coming soon...
 
   // 3. UI / VIEW :: JSX
   return (
     <div>
-      <h1>{title}</h1>
+      <h1>
+        {title} - {price}
+      </h1>
+      <h1>
+        {user.id} {user.name} {user.email}
+      </h1>
+      <h1> {JSON.stringify(user)} </h1>
+
       <p>{para}</p>
     </div>
   );
