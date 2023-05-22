@@ -1,14 +1,18 @@
-// JSX => JAVASCRIPT AND XML
-// PREDEFINED TAG: <h1> <p> <div>
-// X :: Extended Markup language
-// XML :: USER DEFINED TAG:
-// XML :: STRICT
-// XML :: THERE MUST BE ONE ROOT TAG. PARENT.
+// On Save
+// Code Formtting
+// Auto Suggestion
+// Run the program :: npm start (There is no live server extension)
+// JSX :: ()
+//     :: optional, Parenthesis if ur html is one liner.
+//     :: required, parenthesis, for multi line html
+//     :: required, with two tags.
 function App() {
   return (
     <div>
-      <h1>Hello</h1>
-      <h1>World</h1>
+      <div>
+        <h1>adff</h1>
+      </div>
+      <div>Hello</div>
     </div>
   );
 }
