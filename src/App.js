@@ -4,15 +4,13 @@
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
-      <hr />
       <Header />
-      <hr />
-      <Header />
-      <hr />
-      <Header />
-      <hr />
-      <Header />
+      <MainBody />
+      <MainBody />
+      <MainBody />
+      <MainBody />
+      <MainBody />
+      <Footer />
     </div>
   );
 }
@@ -22,10 +20,28 @@ function App() {
 function Header() {
   return (
     <div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
-      itaque! Exercitationem, recusandae sapiente quas officiis voluptates
-      cupiditate aperiam sequi, laboriosam ratione aspernatur illum impedit sunt
-      tenetur quisquam eum incidunt? Adipisci!
+      <h1>THis is Header</h1>
+    </div>
+  );
+}
+
+function MainBody() {
+  return (
+    <div>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+        porro hic saepe. Aperiam repellat culpa soluta assumenda molestias! Quis
+        voluptates atque rem libero labore voluptatibus nostrum nesciunt.
+        Veritatis, dolorum voluptate.
+      </p>
+    </div>
+  );
+}
+
+function Footer() {
+  return (
+    <div>
+      <h1>This is footer</h1>
     </div>
   );
 }
