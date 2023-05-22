@@ -1,18 +1,31 @@
-// On Save
-// Code Formtting
-// Auto Suggestion
-// Run the program :: npm start (There is no live server extension)
-// JSX :: ()
-//     :: optional, Parenthesis if ur html is one liner.
-//     :: required, parenthesis, for multi line html
-//     :: required, with two tags.
+// React Funcn
+// SPL FUNCn :: understood by REACT.
+// return JSX.
 function App() {
   return (
     <div>
-      <div>
-        <h1>adff</h1>
-      </div>
-      <div>Hello</div>
+      <h1>Hello World</h1>
+      <hr />
+      <Header />
+      <hr />
+      <Header />
+      <hr />
+      <Header />
+      <hr />
+      <Header />
+    </div>
+  );
+}
+
+// User Define Tag
+// <Header />
+function Header() {
+  return (
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
+      itaque! Exercitationem, recusandae sapiente quas officiis voluptates
+      cupiditate aperiam sequi, laboriosam ratione aspernatur illum impedit sunt
+      tenetur quisquam eum incidunt? Adipisci!
     </div>
   );
 }
