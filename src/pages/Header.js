@@ -1,7 +1,7 @@
 function Header() {
   return (
     <div>
-      <h1 className="bg-info">This Is HEADER!!!!!!!!</h1>
+      <h1 className="bg-primary p-3 text-light">Project Book</h1>
     </div>
   );
 }

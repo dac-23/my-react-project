@@ -1,3 +1,4 @@
+import BootstrapDemo from "./pages/BootstrapDemo";
 import Footer from "./pages/Footer";
 import Header from "./pages/Header";
 import MainBody from "./pages/MainBody";
@@ -7,15 +8,11 @@ function App() {
   return (
     <div>
       <Header />
-      <BootstrapDemo />
-    </div>
-  );
-}
-
-function BootstrapDemo() {
-  return (
-    <div>
-      <h1 className="bg-primary p-3 text-light">Bootstrap Demo</h1>
+      <MainBody />
+      <MainBody />
+      <MainBody />
+      <MainBody />
+      <Footer />
     </div>
   );
 }

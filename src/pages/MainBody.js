@@ -1,12 +1,11 @@
 function MainBody() {
   return (
-    <div>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-        porro hic saepe. Aperiam repellat culpa soluta assumenda molestias! Quis
-        voluptates atque rem libero labore voluptatibus nostrum nesciunt.
-        Veritatis, dolorum voluptate.
-      </p>
+    <div className="alert alert-primary m-0 mb-1">
+      <h1>Notes and Instructions</h1>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+      asperiores consequatur perferendis soluta, suscipit, praesentium rerum
+      iusto aspernatur consequuntur esse obcaecati dolores culpa velit.
+      Praesentium nobis dolores fugit ullam velit?
     </div>
   );
 }
